@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 render( 
     <BrowserRouter>
-        <Main />
+        <Main><p>Hello</p></Main>
     </BrowserRouter>, 
     document.getElementById('root')
 );
