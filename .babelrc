@@ -1,9 +1,8 @@
 {
-  "presets": ["@babel/preset-env","@babel/preset-react"],
+  "presets": ["@babel/env","@babel/react"],
   "env": {
     "development": {
       "plugins": [
-        ["transform-object-rest-spread"],
         ["transform-react-display-name"],
         ["react-transform", {
           "transforms": [{
@@ -19,8 +18,7 @@
     },
     "production": {
       "plugins": [
-        ["transform-object-rest-spread"],
-        ["transform-react-display-name"]
+
       ]
     }
   }
