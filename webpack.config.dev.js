@@ -2,6 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
+  mode: 'development',
   devtool: 'source-map',
   entry: [
     'webpack-hot-middleware/client',
@@ -12,6 +13,9 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/static/'
   },
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     // new webpack.NoErrorsPlugin() removed in Webpack 4 (behavior enabled by default)
@@ -20,17 +24,16 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        include: path.join(__dirname, 'client'),
+        exclude: /node_modules/,
+        //include: path.join(__dirname, 'client'),
         use: {
-          loader: 'babel-loader',
+          loader: 'babel-loader'
         }
       },
       {
         test: /\.styl$/, 
         include: path.join(__dirname, 'client'),
-        use: {
-          loader: 'style-loader!css-loader!stylus-loader'  
-        }
+        loader: 'style-loader!css-loader!stylus-loader'  
       }
     ]
   }
