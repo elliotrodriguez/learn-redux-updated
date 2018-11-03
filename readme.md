@@ -1,6 +1,17 @@
 # Learn Redux
 
-A simple React + Redux implementation. This will be turned into a free video series once the app is totally fleshed out.
+The wesbos.com course on Learn Redux is outdated. This is an updated, modernized version of the application you build as you progress through the video series. 
+
+Each branch will contain a working version as of the end of a given video segment. The initial master commit is the first working version.
+
+This updates to:
+- React 16.6
+- React Router 4
+- Webpack 4
+- Redux 5
+- Babel 7
+
+Along the way, we will be removing dependencies if they are not needed. For example, the initial commit removes some presets that are now rolled into preset-env.
 
 ## Running
 
