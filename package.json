@@ -19,6 +19,7 @@
   "homepage": "https://github.com/wesbos/Learn-Redux",
   "dependencies": {
     "@babel/core": "^7.1.2",
+    "@babel/helper-module-imports": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.1",
@@ -33,7 +34,6 @@
     "express": "^4.13.4",
     "raven-js": "^3.27.0",
     "react": "^16.6.0",
-    "react-addons-css-transition-group": "^15.0.2",
     "react-dom": "^16.6.0",
     "react-redux": "^5.1.0",
     "react-router": "^4.3.1",
@@ -41,6 +41,7 @@
     "react-router-redux": "^4.0.4",
     "react-transform-catch-errors": "^1.0.2",
     "react-transform-hmr": "^1.0.4",
+    "react-transition-group": "^2.5.0",
     "redbox-react": "^1.2.3",
     "redux": "^4.0.1",
     "rimraf": "^2.5.2",

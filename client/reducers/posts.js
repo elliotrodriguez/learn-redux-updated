@@ -3,7 +3,6 @@
 // 2 - a copy of the current state
 
 const posts = (state = [], action) => {
-    console.log(state, action);
     return state;
 }
 
