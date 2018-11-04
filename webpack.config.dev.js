@@ -4,6 +4,9 @@ var webpack = require('webpack');
 module.exports = {
   mode: 'development',
   devtool: 'source-map',
+  devServer: {
+    historyApiFallback : true
+  },
   entry: [
     'webpack-hot-middleware/client',
     './client/reduxstagram'
