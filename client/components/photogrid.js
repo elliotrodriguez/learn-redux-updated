@@ -6,7 +6,9 @@ const Photogrid = (props) => {
 
     return (
         <div className="photo-grid">
-        {props.posts.map((post, index) => <Photo {...props} key={index} index={index} post={post}/>)}        
+        {props.posts.map((post, index) => 
+                <Photo {...props} key={index} index={index} post={post}/>)
+            }
         </div>
     )
 }

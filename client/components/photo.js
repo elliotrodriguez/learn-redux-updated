@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { CSSTransition } from 'react-transition-group';
 
  class Photo extends Component {
      render() {
-         const {post, i, comments} = this.props;
+         const {post, index, comments} = this.props;
 
          return (
              <figure className="grid-figure">
@@ -13,18 +13,14 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
                         <img src={post.display_src} alt={post.caption} className="grid-photo"/>
                     </Link>
 
-                    <TransitionGroup className="likes-heart" component={null}>
-                    <CSSTransition key={post.likes} 
-                        classNames="likes-heart"
-                        timeout={500}>
-                        <span key={post.likes}></span>    
-                    </CSSTransition> 
-                    </TransitionGroup>
+                    <CSSTransition in={true} classNames="like" timeout={500}>
+                    <span key={post.likes} className="likes-heart">{post.likes}</span>
+                    </CSSTransition>
                 </div>
                 <figcaption>
                     <p>{post.caption}</p>
                     <div className="control-buttons">
-                        <button className="likes">&hearts; {post.likes}</button>
+                        <button onClick={this.props.increment.bind(null, index)} className="likes">&hearts; {post.likes}</button>
                         <Link className="button" to={`/view/${post.code}`}>
                         <span className="comment-count">
                             <span className="speech-bubble"></span>
