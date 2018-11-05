@@ -1,6 +1,8 @@
 # Learn Redux
 
-The wesbos.com course on Learn Redux is outdated. This is an updated, modernized version of the ReactJS application you build as you progress through the video series. It doesn't look like the repo is looking at PRs, so I decided to provide an updated version that will hopefully help others looking to complete the series, but have a baseline to work off of when using current versions of React and Redux.
+I needed a quick refresher on Redux and came across [Learn Redux](http://www.learnredux.com).
+
+It was great, but sorely outdated. This is an updated, modernized version of the ReactJS application you build as you progress through the video series. It doesn't look like the repo is looking at PRs, so I decided to provide an updated version that will hopefully help others looking to complete the series, but have a baseline to work off of when using current versions of React and Redux.
 
 Each branch will contain a working version as of the end of a given video segment. The initial master commit is the first working version. If you want to see what was changed along the way, refer to each of the branches.
 
