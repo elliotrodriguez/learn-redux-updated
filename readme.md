@@ -4,6 +4,22 @@ The wesbos.com course on Learn Redux is outdated. This is an updated, modernized
 
 Each branch will contain a working version as of the end of a given video segment. The initial master commit is the first working version. If you want to see what was changed along the way, refer to each of the branches.
 
+Each link takes you to a branch that matches the video chapter in the series.
+__________
+[Chapter 2](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch02)
+[Chapter 3](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch03)
+[Chapter 4](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch04)
+[Chapter 5](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch05)
+[Chapter 9](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch09)
+[Chapter 10](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch10)
+[Chapter 12](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch12)
+[Chapter 13](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch13)
+[Chapter 14](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch14)
+[Chapter 18](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch18)
+[Chapter 20](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch20)
+
+
+
 This updates to:
 - React 16.6
 - React Router 4
