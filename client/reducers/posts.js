@@ -7,7 +7,6 @@ const posts = (state = [], action) => {
         case 'INCREMENT_LIKES':
             // return updated state
             const index = action.index;
-            console.log(state[index]);
 
             return [
                 ...state.slice(0, index),
