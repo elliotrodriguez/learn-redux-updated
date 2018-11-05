@@ -11,8 +11,11 @@ const defaultState = {
     comments
 }
 
-const store = createStore(rootReducer, defaultState, 
-window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
+const enhancers = compose(
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
+
+const store = createStore(rootReducer, defaultState, enhancers);
 
 
 if (module.hot) {
