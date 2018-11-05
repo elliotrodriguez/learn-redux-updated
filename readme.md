@@ -46,3 +46,5 @@ Run `npm build` to create a distro folder and a bundle.js file.
 2. Actually add tests (the default code base uses expect, I think this should use enzyme)
 3. Get the production build working
 4. Linting
+
+## This code comes without warranty. I am not in any way associated with learnredux.com, Wes Bos, nor do I claim this source is defect free. However, if anyone has any bug fixes or enhancements, you're welcome to submit a PR.
