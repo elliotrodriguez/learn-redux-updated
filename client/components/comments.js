@@ -1,24 +1,43 @@
 import React from 'react';
 
 class Comments extends React.Component {
+    constructor(props) {
+        super(props)
+
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.renderComment = this.renderComment.bind(this);
+    };
+
+    handleSubmit(e) {
+        e.preventDefault();
+        // get the data from the form via the refs
+        
+        const { postId } = this.props.match.params;
+
+        const author = this.refs.author.value;
+        const comment = this.refs.comment.value;
+
+       this.props.addComment(postId, author, comment)
+       this.refs.commentForm.reset();
+    }
+
     renderComment(comment, i) {
         return (
             <div className="comment" key={i}>
                 <p>
                     <strong>{comment.user}</strong>
                     {comment.text}
-                    <button className="remove-comment">&times;</button>
+                    <button className="remove-comment" onClick={this.props.removeComment.bind(null, this.props.match.params.postId, i)}>&times;</button>
                 </p>
             </div>
         )
     }
 
-    render() {
-        const props = this.props;
+    render() {        
         return (
             <div className="comments">
-            {props.postComments.map(this.renderComment)}
-            <form ref="commentForm" className="comment-form">
+            {this.props.postComments.map(this.renderComment)}
+            <form ref="commentForm" className="comment-form" onSubmit={this.handleSubmit}>
                 <input type="text" ref="author" placeholder="author" />
                 <input type="text" ref="comment" placeholder="comment" />
                 <input type="submit" hidden />
