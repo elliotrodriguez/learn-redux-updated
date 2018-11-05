@@ -1,22 +1,22 @@
 # Learn Redux
 
-The wesbos.com course on Learn Redux is outdated. This is an updated, modernized version of the ReactJS application you build as you progress through the video series. 
+The wesbos.com course on Learn Redux is outdated. This is an updated, modernized version of the ReactJS application you build as you progress through the video series. It doesn't look like the repo is looking at PRs, so I decided to provide an updated version that will hopefully help others looking to complete the series, but have a baseline to work off of when using current versions of React and Redux.
 
 Each branch will contain a working version as of the end of a given video segment. The initial master commit is the first working version. If you want to see what was changed along the way, refer to each of the branches.
 
-Each link takes you to a branch that matches the video chapter in the series.
+Each link takes you to a branch that matches the video chapter in the series. Gaps mean I rolled up related changes from a few videos into one branch.
 __________
-[Chapter 2](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch02)
-[Chapter 3](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch03)
-[Chapter 4](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch04)
-[Chapter 5](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch05)
-[Chapter 9](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch09)
-[Chapter 10](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch10)
-[Chapter 12](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch12)
-[Chapter 13](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch13)
-[Chapter 14](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch14)
-[Chapter 18](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch18)
-[Chapter 20](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch20)
+- [Chapter 2](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch02)
+- [Chapter 3](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch03)
+- [Chapter 4](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch04)
+- [Chapter 5](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch05)
+- [Chapter 9](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch09)
+- [Chapter 10](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch10)
+- [Chapter 12](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch12)
+- [Chapter 13](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch13)
+- [Chapter 14](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch14)
+- [Chapter 18](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch18)
+- [Chapter 20](https://github.com/elliotrodriguez/learn-redux-updated/tree/ch20)
 
 
 
